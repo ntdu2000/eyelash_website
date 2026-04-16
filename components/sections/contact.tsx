@@ -24,7 +24,9 @@ export function Contact() {
           </p>
 
           <motion.a
-            href="tel:+14165550123"
+            href="https://calendly.com/noirelashstudio-ca/30min"
+	    target="_blank"
+	    rel="noopener noreferrer"
             initial={{ opacity: 0, y: 10 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -45,18 +47,18 @@ export function Contact() {
             <div className="grid md:grid-cols-3 gap-8 text-white/80 text-sm">
               <div>
                 <p className="text-white/50 uppercase tracking-[0.15em] text-xs mb-2">Location</p>
-                <p>123 Queen Street West, Suite 200</p>
-                <p>Toronto, ON M5H 2M9</p>
+                <p>420 Roxton Rd</p>
+                <p>Toronto, ON M6G 3R4</p>
               </div>
               <div>
                 <p className="text-white/50 uppercase tracking-[0.15em] text-xs mb-2">Hours</p>
-                <p>Tuesday - Saturday</p>
-                <p>10:00 AM - 8:00 PM</p>
+                <p>Monday - Sunday</p>
+                <p>09:00 AM - 05:00 PM</p>
               </div>
               <div>
                 <p className="text-white/50 uppercase tracking-[0.15em] text-xs mb-2">Contact</p>
-                <p>(416) 555-0123</p>
-                <p>hello@noirelash.ca</p>
+                <p>(416) 889-5442</p>
+                <p>noirelashstudio.ca@gmail.com</p>
               </div>
             </div>
           </motion.div>
